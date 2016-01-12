@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="32487" started-at="2016-01-11T22:27:53Z" finished-at="2016-01-11T22:28:25Z">
+    <groups>
+    </groups>
+    <test name="exampletest1" duration-ms="32487" started-at="2016-01-11T22:27:53Z" finished-at="2016-01-11T22:28:25Z">
+      <class name="com.prokarma.cicd.automation.SampleSauceIntegrationTest">
+        <test-method status="PASS" signature="webDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.prokarma.cicd.automation.SampleSauceIntegrationTest@5d5eef3d]" name="webDriver" duration-ms="21509" started-at="2016-01-11T15:27:53Z" data-provider="hardCodedBrowsers" finished-at="2016-01-11T15:28:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 8.1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@11a9ff5f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webDriver -->
+        <test-method status="PASS" signature="webDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.prokarma.cicd.automation.SampleSauceIntegrationTest@5d5eef3d]" name="webDriver" duration-ms="31112" started-at="2016-01-11T15:27:53Z" data-provider="hardCodedBrowsers" finished-at="2016-01-11T15:28:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OSX 10.8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@11a9ff5f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webDriver -->
+      </class> <!-- com.prokarma.cicd.automation.SampleSauceIntegrationTest -->
+    </test> <!-- exampletest1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
